@@ -144,6 +144,12 @@ body {
     overflow-x: hidden;
     overflow-y: auto;
 }
+.parallax-window::-webkit-scrollbar { 
+    width: 0; 
+}
+.parallax-window { 
+    -ms-overflow-style: none; 
+}
 .box-under-parallax {
     height: 500px;
     background: #333;
