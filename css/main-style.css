@@ -141,6 +141,8 @@ body {
 }
 .parallax-window {
     height: 65vh;
+    overflow-x: hidden;
+    overflow-y: auto;
 }
 .box-under-parallax {
     height: 500px;
@@ -161,7 +163,6 @@ body {
     float: right;
     padding: 30px;
     width: 580px;
-    height: 390px;
 }
 .text-inside-parallax {
     color: #fff;
