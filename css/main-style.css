@@ -1,0 +1,163 @@
+@font-face {
+      font-family: 'open-sans';
+      src: url('../fonts/open-sans.ttf');
+      font-family: 'capture-it';
+      src: url('../fonts/capture-it.ttf');
+}
+@media only all and (max-width:930px){
+    .logo-hide {
+        display: none!important;
+    }
+    .logo-hide-2 {
+        display: inline!important;
+    }
+}
+@media only all and (max-height:650px){
+     .banner-text-class {
+        font-size: 28px!important;
+    }
+}
+@media only all and (max-height:460px){
+     .banner-text-class {
+        font-size: 22px!important;
+    }
+    .banner-box {
+        top: 30%!important;
+    }
+}
+@media only all and (max-width:768px){
+    .center-menu {
+        width: 100%;
+        float: left!important;
+        text-align: left!important;
+    }
+    .vk-class {
+        margin-left: 0!important;
+    }
+}
+body {
+    margin: 0;
+}
+.logo-hide-2 {
+    display: none;
+}
+.main-banner {
+    background: url("../img/bg-top.jpg") 0 34% no-repeat;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+}
+.content {
+    height: 900px;
+    background: url("../design/bg-3.jpg") 0 0 no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+.logo-text {
+    line-height: 3.5;
+    color: #fff;
+    white-space: nowrap;
+    background: rgba(57, 18, 86, 0.88);
+    text-transform: uppercase;
+}
+.banner-box {
+    position: absolute;  
+    top: 40%;
+    width: 100%;
+}
+.banner-box-2 {
+    max-width: 1280px;
+    padding: 30px;
+    margin: 0 auto;
+    width: 100%;
+}
+.banner-text-class {
+    font-size: 40px;
+    color: #fff;
+    font-family: "capture-it";
+    background: rgba(49, 16, 74, 0.62);
+}
+.show-class {
+    opacity:1!important;
+    transition: all 0.6s ease;
+}
+.hide-class {
+    opacity: 0!important;
+    transition: all 0.6s ease;
+}
+.navbar {
+    background: rgba(255, 255, 255, 0.83)!important;
+    border: none!important;
+}
+.navbar ul a {
+    color: #240a38!important;
+}
+.icon-class {
+    height: 30px;
+    width: 30px;
+    background-size: cover!important;
+    display: inline-block;
+    margin-top: 10px;
+    opacity: 0.6;
+    margin-left: 10px;
+}
+.vk-class {
+    background: url("../img/socialicon-2-1.png") 0 0 no-repeat;
+    margin-left: 30px;
+}
+.yt-class {
+    background: url("../img/yt.png") 0 0 no-repeat;
+    height: 31px!important;
+}
+.inst-class {
+    background: url("../img/inst.png") 0 0 no-repeat;
+    height: 31px!important;
+}
+.fb-class {
+    background: url("../img/fb.png") 0 0 no-repeat;
+}
+.center-menu {
+    text-align: right;
+    float: right;
+}
+.icon-class:hover {
+    opacity: 1;
+}
+.menu-box {
+    max-width: 1280px;
+    padding: 0 30px!important;
+}
+.right-menu {
+    margin-right: 15px;
+}
+.before-content {
+    background: #666;
+    width: 100%;
+    height: 300px;
+    
+}
+.parallax-window {
+    height: 65vh;
+}
+.box-under-parallax {
+    height: 500px;
+    background: #333;
+}
+.inside-parallax-1 {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 30px;
+}
+.inside-parallax-2 {
+    background: rgba(51, 51, 51, 0.52);
+/*  height: 57vh; */
+    width: 45vw;
+    float: right;
+    padding: 30px;
+    width: 580px;
+    height: 390px;
+}
+.text-inside-parallax {
+    color: #fff;
+    font-style: italic;
+}
