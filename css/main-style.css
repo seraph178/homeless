@@ -139,20 +139,16 @@ body {
     height: 300px;
     
 }
-.parallax-window {
+.parallax-1 {
     height: 65vh;
     overflow-x: hidden;
     overflow-y: auto;
 }
-.parallax-window::-webkit-scrollbar { 
+.parallax-1::-webkit-scrollbar { 
     width: 0; 
 }
-.parallax-window { 
+.parallax-1 { 
     -ms-overflow-style: none; 
-}
-.box-under-parallax {
-    height: 500px;
-    background: #333;
 }
 .inside-parallax-1 {
     max-width: 1280px;
@@ -178,4 +174,10 @@ body {
     height: 100%;
     vertical-align: middle;
     display: table-cell;
+}
+.parallax-2 {
+    height: 500px;
+}
+.footer {
+    height: 400px;
 }
