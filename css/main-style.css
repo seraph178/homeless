@@ -140,7 +140,7 @@ body {
     
 }
 .parallax-1 {
-    height: 60vh;
+    height: 65vh;
     overflow-x: hidden;
     overflow-y: auto;
 }
@@ -176,7 +176,7 @@ body {
     display: table-cell;
 }
 .parallax-2 {
-    height: 60vh;
+    height: 65vh;
 }
 .footer {
     height: 65vh;
