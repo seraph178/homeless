@@ -175,9 +175,10 @@ body {
     vertical-align: middle;
     display: table-cell;
 }
-.parallax-2 {
-    height: 65vh;
-}
 .footer {
     height: 65vh;
+}
+
+.down-parallax-2 {
+    float: left!important;
 }
