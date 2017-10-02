@@ -2,7 +2,10 @@
       font-family: 'open-sans';
       src: url('../fonts/open-sans.ttf');
       font-family: 'capture-it';
-      src: url('../fonts/capture-it.ttf');
+      src: url('../fonts/capture-it.eot');
+      src: url('../fonts/capture-it.eot?#iefix') format("embedded-opentype"),
+       url('../fonts/capture-it.ttf') format("truetype"),
+       url('../fonts/capture-it.svg#capture-it') format("svg");
 }
 @media only all and (max-width:670px) {
 
