@@ -143,9 +143,11 @@ body {
     
 }
 .parallax-1 {
-    height: 65vh;
-    overflow-x: hidden;
-    overflow-y: auto;
+    min-height: 65vh; 
+    overflow-x: hidden; 
+    overflow-y: auto; 
+    display: flex; 
+    align-items: center; 
 }
 .parallax-1::-webkit-scrollbar { 
     width: 0; 
