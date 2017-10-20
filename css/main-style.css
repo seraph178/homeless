@@ -185,3 +185,7 @@ body {
 .down-parallax-2 {
     float: left!important;
 }
+.whatwedid {
+    height: 65vh;
+    background-color: #333;
+}
